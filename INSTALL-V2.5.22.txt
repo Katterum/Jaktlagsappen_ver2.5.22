@@ -1,0 +1,10 @@
+KATTERUMS JAKTLAG v2.5.22 - RADERA KALENDERAKTIVITET
+
+Rattning:
+- Radera-knappen i Kalender ar explicit kopplad till den aktiva deleteEvent-funktionen.
+- Radering tar bort aktiviteten fran Supabase events och lokal kalenderdata.
+- Kalendern lases om efter radering och Hem uppdateras.
+- Radering ar fortsatt begransad till admin/jaktledare.
+- Cache/version uppdaterad till 2.5.22.
+
+Ingen ny SQL behovs. Ovriga funktioner ar oforandrade.
